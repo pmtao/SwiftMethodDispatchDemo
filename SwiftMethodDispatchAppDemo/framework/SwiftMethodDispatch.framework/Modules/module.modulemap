@@ -1,0 +1,11 @@
+framework module SwiftMethodDispatch {
+  umbrella header "SwiftMethodDispatch.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftMethodDispatch.Swift {
+    header "SwiftMethodDispatch-Swift.h"
+    requires objc
+}
